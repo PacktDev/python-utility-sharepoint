@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "packtsharepoint"
+version = "1.0.0"
+description = "Python utility to interract with Sharepoint"
+authors = ["raajs <raajs@packt.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Office365-REST-Python-Client = "^2.3.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
