@@ -6,7 +6,7 @@ authors = ["raajs <raajs@packt.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.7, <4"
 Office365-REST-Python-Client = "^2.3.16"
 
 
