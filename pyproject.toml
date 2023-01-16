@@ -1,4 +1,6 @@
 [tool.poetry]
+packages = [{include="packt_sharepoint", from="packtsharepoint"}]
+
 name = "packtsharepoint"
 version = "1.0.0"
 description = "Python utility to interract with Sharepoint"
